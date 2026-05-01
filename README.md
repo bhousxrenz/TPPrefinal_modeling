@@ -1,10 +1,10 @@
-# 🏥 Patient Wait Time Distribution Analysis
+#  Patient Wait Time Distribution Analysis
 
 A **Modeling and Simulation** project that visualizes and analyzes the statistical distribution of patient wait times across five different hospital and clinic scenarios using Python.
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -18,7 +18,7 @@ A **Modeling and Simulation** project that visualizes and analyzes the statistic
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project simulates and analyzes patient wait times (in minutes) across five distinct hospital scenarios, each representing a different statistical distribution shape. By visualizing these distributions, the project demonstrates how real-world healthcare systems produce different patterns of patient flow — a core concept in **Modeling and Simulation**.
 
@@ -26,7 +26,7 @@ Each scenario contains **300 simulated data points** ranging from **0 to 120 min
 
 ---
 
-## ✨ Features
+##  Features
 
 - Reads patient wait time data directly from an external Excel file
 - Generates histograms with **KDE (Kernel Density Estimate)** curves for each scenario
@@ -36,20 +36,20 @@ Each scenario contains **300 simulated data points** ranging from **0 to 120 min
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
-📦 project-folder/
- ┣ 📄 patient_wait_time_distributions.py   ← Main Python script
- ┣ 📊 patient_wait_times.xlsx              ← External data file (required)
- ┗ 📄 README.md                            ← Project documentation
+ project-folder/
+ ┣  patient_wait_time_distributions.py   ← Main Python script
+ ┣  patient_wait_times.xlsx              ← External data file (required)
+ ┗  README.md                            ← Project documentation
 ```
 
-> ⚠️ Both the `.py` script and the `.xlsx` data file **must be in the same folder** for the script to run correctly.
+>  Both the `.py` script and the `.xlsx` data file **must be in the same folder** for the script to run correctly.
 
 ---
 
-## 🛠 Requirements
+##  Requirements
 
 - Python 3.7 or higher
 - The following Python libraries:
@@ -63,7 +63,7 @@ Each scenario contains **300 simulated data points** ranging from **0 to 120 min
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 **1. Clone or download this repository**
 
@@ -80,7 +80,7 @@ pip install pandas seaborn matplotlib openpyxl
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 Make sure both files are in the same folder, then run:
 
@@ -100,7 +100,7 @@ The charts will then appear in a pop-up window on your screen.
 
 ---
 
-## 📊 Distribution Scenarios
+##  Distribution Scenarios
 
 | # | Distribution | Scenario | Description |
 |---|---|---|---|
@@ -112,7 +112,7 @@ The charts will then appear in a pop-up window on your screen.
 
 ---
 
-## 📤 Output
+##  Output
 
 Running the script produces a **5-panel figure** displayed on screen:
 
@@ -123,7 +123,7 @@ Running the script produces a **5-panel figure** displayed on screen:
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 - **Python 3** — Core programming language
 - **pandas** — Data loading and manipulation
