@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 print("Loading Excel file...")
 
-file_path = "patient_wait_times.xlsx"   # <-- make sure this file is in the same folder
+file_path = "patient_wait_times.xlsx" 
 df = pd.read_excel(file_path)
 
 print(f"Data loaded: {df.shape[0]} rows, {df.shape[1]} columns")
